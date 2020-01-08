@@ -1,0 +1,18 @@
+{
+  "name": "emag/land",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "config": {
+    "dev": true
+  },
+  "autoload": {
+    "psr-4": {
+      "eMAG\\": "app/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7",
+    "symfony/var-dumper": "^4.4"
+  }
+}
